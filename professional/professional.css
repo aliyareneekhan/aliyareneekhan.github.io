@@ -1,0 +1,294 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    background-size: 100%;
+}
+
+.name {
+	margin: 0 auto;
+	
+	
+
+}
+.name h1{
+	font-size: 200%;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+
+}
+
+.main-nav {
+
+	margin-top: 20px;
+    height: auto;
+    position: relative;
+    color: black;
+    font-family: Ubuntu, sans-serif;
+    top: 0;
+    z-index: 999;
+}
+
+.main-nav ul {
+    padding: 0;
+}
+
+.main-nav li {
+
+    color: black;
+    font-family: Ubuntu, sans-serif;
+    font-size: 11px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: right;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Ubuntu, sans-serif;
+    font-size: 11px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-transform: lowercase;
+    display: inline-block;
+    z-index: 999;
+ }
+
+ .main-nav a:hover 
+ {
+    font-weight: bold;
+    color: #dc42f4;
+ }
+
+.about
+{
+    height: 12vh;
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nameplate 
+{
+
+    width: 50%;
+    float: left;
+}
+
+.nameplate a
+{
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    color: #664893;
+    text-align: left;
+    text-decoration: none;
+}
+.nameplate h2
+{
+    font-family: Lato, sans-serif;
+    font-size: 40px;
+    color: #664893;
+    text-align: left;
+}
+.nameplate p
+{
+    font-family: Raleway, sans-serif;
+    font-size: 11px;
+    color: black;
+   
+    text-align: left;
+}
+
+.nav
+{
+    padding-top: 32px;
+    width: 40%;
+    float: right;
+}
+
+.prof-nav
+{
+    padding-top: 10vh;
+    width: 50%;
+    float: right;
+    font-family: "Alegreya Sans SC", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: slategray;
+    padding-right: 60px;
+}
+
+.prof-nav ul
+{
+    line-height: 70px;
+    color: slategray;
+    list-style: none;
+}
+.prof-nav a 
+{
+    line-height: 60px;
+    color: slategray;
+    text-decoration: none;
+}
+
+.prof-nav a:hover
+{
+    font-weight: bold;
+    color: #dc42f4;
+}
+
+.intro-page
+{
+    clear: both;
+    height: 90vh;
+}
+.circle
+{
+    float: left;
+    padding-top: 50px;
+    padding-left: 200px;
+    
+    width: 30%;
+    height: 30%;
+}
+
+.Skills
+{
+    background-color: #664893;
+    color: white;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
+.Skills ul
+{
+    list-style: none;
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.Projects
+{
+    font-family: Lato, sans-serif;
+    padding: 50px;
+    clear: both;
+}
+.project 
+{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #d7f0f7;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.project h2
+{
+    font-weight: bolder;
+    color: #664893;
+}
+.Projects h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.Projects a 
+{
+    text-decoration: none;
+
+}
+
+.Coursework
+{
+    background-color: #d7f0f7;
+    font-family: Lato, sans-serif;
+    padding: 50px;
+    clear: both;
+}
+
+.Coursework h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+.semester
+{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+   
+}
+
+.semester h2
+{
+    color: #664893;
+    font-weight: bold;
+}
+
+.Requests
+{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-family: Lato, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.Requests h1
+{
+    font-size: 50px;
+}
+
+.Requests i
+{
+    padding: 15px;
+}
+
+.Footer {
+    font-family: "Lato";
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    overflow: scroll;
+    color: black;
+    clear: both;
+}
