@@ -9,7 +9,8 @@ section {
     height:100vh;
 }
 .home {
-    background-image: url("https://aliyareneekhan.github.io/flower_picture.JPG");
+
+    background-image: url("flower_picture.JPG"); 
     background-size: cover;
     background-position: center center;
     height: 106vh;
